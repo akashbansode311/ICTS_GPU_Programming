@@ -1,5 +1,7 @@
 # 🚀 CUDA Code Examples
 
+![NVIDIA GPU](https://www.incredibuild.com/wp-content/uploads/2021/03/Asset-1901.png)
+
 This repository contains simple and practical CUDA C programs to help beginners and researchers understand the basics of **GPU programming with CUDA**. This repository shows how CUDA accelerates real-world scientific computations.
 
 ## 📌 Requirements
