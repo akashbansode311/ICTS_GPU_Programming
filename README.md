@@ -1,6 +1,6 @@
 # 🚀 CUDA Code Examples
 
-This repository contains simple and practical CUDA C programs to help beginners and researchers understand the basics of **GPU programming with CUDA**.
+This repository contains simple and practical CUDA C programs to help beginners and researchers understand the basics of **GPU programming with CUDA**. This repository shows how CUDA accelerates real-world scientific computations.
 
 ## 📌 Requirements
 
@@ -24,7 +24,6 @@ nvcc 01.Hello_World.cu -o Hello_World
 * Practice performance optimization with CUDA
 
 
-This repository shows how CUDA accelerates real-world scientific computations.
 ---
 
 💡 Maintainer: *Akash Bansode*
