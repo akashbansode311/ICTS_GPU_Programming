@@ -1,18 +1,8 @@
 # 🚀 CUDA Code Examples
 
-This repository contains simple and practical CUDA C/C++ programs to help beginners and researchers understand the basics of **GPU programming with CUDA**.
+This repository contains simple and practical CUDA C programs to help beginners and researchers understand the basics of **GPU programming with CUDA**.
 
-## 📌 Contents
-
-* **Hello World (device query)** → Check GPU details (compute capability, memory, etc.)
-* **Vector Addition** → Introduction to parallelism
-* **Matrix Multiplication** → Demonstrates 2D thread blocks and grids
-* **Reduction (Sum of Array)** → Shows shared memory usage
-* **Prefix Sum (Scan)** → Inclusive/exclusive scan examples
-* **N-Body Simulation** → Example from astrophysics (gravitational interaction)
-* More codes coming soon 🚧
-
-## ⚡ Requirements
+## 📌 Requirements
 
 * NVIDIA GPU with CUDA support
 * CUDA Toolkit installed (e.g., 11.x or later)
@@ -20,18 +10,11 @@ This repository contains simple and practical CUDA C/C++ programs to help beginn
 
 ## ▶️ How to Compile & Run
 
-Example for vector addition:
+Example :
 
 ```bash
-nvcc vector_add.cu -o vector_add
-./vector_add
-```
-
-Example for matrix multiplication:
-
-```bash
-nvcc matrix_mul.cu -o matrix_mul
-./matrix_mul
+nvcc 01.Hello_World.cu -o Hello_World
+./Hello_World
 ```
 
 ## 📚 Learning Goals
@@ -40,16 +23,8 @@ nvcc matrix_mul.cu -o matrix_mul
 * Learn memory hierarchy (global, shared, registers)
 * Practice performance optimization with CUDA
 
-## 🌌 Special Note
 
-This repo also includes astrophysics-related demos (like **N-body simulation**) to show how CUDA accelerates real-world scientific computations.
-
-## 🤝 Contribution
-
-Feel free to fork, add new examples, or suggest improvements via pull requests.
-
+This repository shows how CUDA accelerates real-world scientific computations.
 ---
 
-💡 Maintainer: *Your Name*
-
-# Sample Codes for CUDA
+💡 Maintainer: *Akash Bansode*
