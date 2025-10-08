@@ -11,7 +11,7 @@ int main()
     // Print "Hello, World!" from the CPU
     printf("Hello, World from CPU\n");
 
-    // Launch kernel with a single thread to print "Hello, World!" from the GPU
+    // Launch kernel to print "Hello, World!" from the GPU
     helloFromGPU<<<1, 10>>>();
 
     // Synchronize to ensure all printf statements from the GPU are executed
