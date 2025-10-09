@@ -42,7 +42,7 @@ int main()
     cudaMemcpy(d_b, b, size, cudaMemcpyHostToDevice);
 
     // Set execution configuration parameters
-    // ThreadsPerBlock : Number of CUDA threads per grid
+    // ThreadsPerBlock : Number of CUDA threads per Block
     // BlocksPerGrid : Number of blocks in grid
     int ThreadsPerBlock = 128;
     int BlocksPerGrid = (N + ThreadsPerBlock - 1) / ThreadsPerBlock;
